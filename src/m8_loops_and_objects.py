@@ -265,6 +265,7 @@ def draw_cosines_and_sines():
 
         center=rg.Point(200+(80*math.cos(k)),200+(80*math.sin(k)))
         circle = rg.Circle(center, 10)
+        circle.outline_color = 'pink'
         circle.attach_to(window)
         window.render(0.05)
 
